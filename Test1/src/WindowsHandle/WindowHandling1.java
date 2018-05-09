@@ -20,6 +20,7 @@ public class WindowHandling1 {
 		
 	 WebElement element = 	driver.findElement(By.xpath("html/body/div[1]/div/div/div/div[2]/div[1]/a/button"));
 	 element.click();
+	 System.out.println("Clicking on the element");
 	 
 	 Thread.sleep(5000);
 	 
